@@ -1,11 +1,11 @@
 package com.particeep.test.basic
 
 /**
- * Compute the avarage of the list
+ * Compute the average of the list
  *
  * ex : [1, 10, 16] -> 9
  */
-object ComputeAvarage {
+object ComputeAverage {
 
   def average(l: List[Double]) = ???
 
