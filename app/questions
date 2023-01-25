@@ -9,3 +9,38 @@
 Give us detail about it
 
 5) Among all the projects you have worked on. Which architecture do you enjoy the most? explain why ?
+
+1)  Rest: is an architectural style for an API that uses HTTP requests to access and use data.
+ That data can be used to GET, PUT, POST and DELETE data types.
+ REST is a logical choice for building APIs that allow users to connect to,
+  manage and interact with cloud services flexibly in a distributed environment
+
+
+2) The Client-server:
+A client-server architecture allows a clear separation of concerns.
+The client is responsible for requesting and displaying the data while the server is taking care
+of data storage and application logic.
+One advantage is that both sides can be developed separately as long as the in/out entries format is followed.
+
+Statelessness: Communication between client and server is stateless.
+
+RRSTful APIs have a number of methods to indicate the type of operation we are going to perform with this API:
+GET: A safe read-only method that reads a single or a list of resources.
+POST: Creates a new resource.
+PUT: Completely replaces the resource(s) at the given location with the new data.
+PATCH: Merges the resource(s) at the given location with the new data.
+DELETE: Deletes the resource(s) at a location.
+HEAD: Same as GET but only returns the header and no data.
+
+
+3) What are the best practices when deploying an application in the cloud
+    Microservices architecture.
+    Automate:
+    Using of (CI/CD) to release high-quality code faster.
+    With CI, an automated builds and tests are run on the merged/pushed code changes into a central repository,
+    then after the CD release this changes to production.
+
+
+4) My biggest strength is web.
+I am more oriented toward web development, I had the opportunity on my lasts Jobs to develop different features.
+Also investing in a bunch of bugs that requires a lot of debugging and log tracing.
