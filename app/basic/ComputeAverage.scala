@@ -1,4 +1,4 @@
-package com.particeep.test.basic
+package basic
 
 /**
  * Compute the average of the list
@@ -7,6 +7,6 @@ package com.particeep.test.basic
  */
 object ComputeAverage {
 
-  def average(l: List[Double]) = ???
+  def average(l: List[Double]) : Option[Double] = if (l.nonEmpty) Some(l.sum / l.size) else  None
 
 }

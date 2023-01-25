@@ -29,6 +29,9 @@ object EnterpriseDao {
 object WhatsWrong2 {
 
   //Review this code. What could be done better ? How would you do it ?
+  // I see that the byId(id: String) takes a String while the ceo_id.get may be a None (Option)
+  //What could be done better ? I would just add a condition to check if the ceo_id.get is None => return an empty string.
+
   def getCEOAndEnterprise(ceo_id: Option[String]): Future[(Option[CEO], Option[Enterprise])] = {
     for {
       ceo        <- CEODao.byId(ceo_id.get)
